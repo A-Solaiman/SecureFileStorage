@@ -1,0 +1,10 @@
+
+# Python Requirements for Secure File Storage System
+
+# Standard libraries (no need to install)
+# - os
+# - re
+# - hashlib
+
+# External libraries
+pycryptodome==3.18.0  # For AES encryption and decryption

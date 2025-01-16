@@ -1,0 +1,84 @@
+
+Secure File Storage System
+==========================
+
+This project is a Python-based secure file storage system designed to encrypt and decrypt files, 
+authenticate users, and organize files into directories. It ensures the confidentiality and 
+integrity of user data using AES encryption and secure password storage.
+
+Features
+--------
+1. **Authentication System**:
+   - User registration with a password strength checker.
+   - Passwords are securely hashed using SHA-256.
+   - User login functionality with secure password verification.
+
+2. **File Encryption/Decryption**:
+   - Uses AES (Advanced Encryption Standard) for encrypting and decrypting files.
+   - Ensures secure storage of sensitive files.
+
+3. **Metadata Logging**:
+   - Logs actions such as file encryption and decryption.
+   - Tracks timestamps, user actions, and file names for better auditability.
+
+4. **File Manager Module**:
+   - Organizes files into `SecureFiles` (encrypted) and `DecryptedFiles` directories.
+   - Provides functionality to list and move files.
+
+5. **Password Strength Checker**:
+   - Enforces strong password policies during registration.
+   - Checks for minimum length, uppercase and lowercase letters, numbers, and special characters.
+
+Modules and Functions
+---------------------
+1. **auth.py**:
+   - `hash_password(password)`: Hashes a password using SHA-256.
+   - `password_strength_checker(password)`: Validates password strength based on defined rules.
+   - `register(username, password)`: Registers a new user after validating the password and hashing it.
+   - `login(username, password)`: Authenticates a user by verifying their hashed password.
+
+2. **encryption.py**:
+   - Handles AES-based encryption and decryption of files.
+
+3. **file_manager.py**:
+   - Manages file organization, listing, and movement between directories.
+
+4. **main.py**:
+   - The entry point of the application, orchestrating all modules and user interactions.
+
+Usage Instructions
+------------------
+1. Run the main program:
+   ```
+   python main.py
+   ```
+
+2. Choose an action from the menu:
+   - Register: Create a new user account.
+   - Login: Access your account.
+   - Encrypt a file: Secure your files by encrypting them.
+   - Decrypt a file: Access your encrypted files.
+
+3. Follow the prompts for the selected action.
+
+Security Measures
+-----------------
+- Strong password enforcement to prevent weak credentials.
+- SHA-256 hashing for password storage, ensuring passwords are not stored in plaintext.
+- AES encryption to secure files from unauthorized access.
+
+Future Enhancements
+-------------------
+- Implement password reset functionality.
+- Add account lockout after multiple failed login attempts.
+- Introduce session management for better user experience.
+
+Dependencies
+------------
+- Python 3.x
+- Required libraries: `hashlib`, `os`, `re`, `pycryptodome`
+
+Contact
+-------
+For questions or issues, please reach out to the project developer.
+
