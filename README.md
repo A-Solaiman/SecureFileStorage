@@ -4,6 +4,16 @@
 
 The **Secure File Storage System** is a Python-based application designed to securely store files through encryption and decryption. The system includes user authentication, AES-based encryption, and metadata logging to track file actions. It also features a file management module to organize files into designated directories.
 
+## How to run??
+
+- Download the standalone software from Google Drive using this link: https://drive.google.com/file/d/1e7qLY2plxC5ryeOyoFAbFmUbwQc29t8i/view?usp=sharing
+- No need to install anything. Just click and run, and you're good to go.
+- For first-time users: You need to create an account first. Click the Register Here button in the bottom right corner.
+- Input a username and a strong password of your choice.
+- After successfully creating an account, you will be redirected to the sign-in window. Use the username and password of the account you created.
+- After the user is logged in: Use the "+" icon to select a file, and input a passcode (remember: this passcode is unrecoverable, so write it down somewhere else if the selected file is valuable).
+- Encrypt or decrypt files by clicking the corresponding buttons. The log history and log out buttons work as well.
+
 ## Features
 
 - **User Authentication**: Users can register and log in securely.
