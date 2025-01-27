@@ -13,8 +13,13 @@ The **Secure File Storage System** is a Python-based application designed to sec
 
 ## Requirements
 
-- Python 3.x
-- `pycryptodome` library for AES encryption
+**Hardware Requirements:**
+- Processor: Dual-core or better
+- RAM: 4 GB minimum
+- Storage: 100 MB of free space
+**Software Requirements:**
+- Operating System: Windows 10 or Windows 11
+
 
 ## Installation
 
