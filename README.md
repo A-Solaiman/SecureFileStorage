@@ -3,7 +3,7 @@
 ## Overview
 
 The **Secure File Storage System** is a Python-based application designed to securely store files through encryption and decryption. The system includes user authentication, AES-based encryption, and metadata logging to track file actions.
-***You can find the source code in the "New" subfolder***
+**You can find the source code in the "New" subfolder**
 The Terminal_Based subfolder includes the alpha version of the software which was terminal based with some dependencies (like python 3.00 or above and some external libraries e.g. *pycryptodome* ). You can check that out too. :)
 
 
