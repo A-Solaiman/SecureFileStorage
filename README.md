@@ -7,6 +7,7 @@ The **Secure File Storage System** is a Python-based application designed to sec
 ## How to run??
 
 - Download the standalone software from Google Drive using this link: https://drive.google.com/file/d/1e7qLY2plxC5ryeOyoFAbFmUbwQc29t8i/view?usp=sharing
+- Note that: during download or running process you may get warnings, just ignore them.
 - No need to install anything. Just click and run, and you're good to go.
 - For first-time users: You need to create an account first. Click the Register Here button in the bottom right corner.
 - Input a username and a strong password of your choice.
