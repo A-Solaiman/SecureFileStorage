@@ -1,0 +1,6 @@
+2025-01-17 15:10:22 | User: solaiman | Action: Encryption | File: DecryptedFiles/test.txt
+2025-01-17 15:11:24 | User: solaiman | Action: Decryption | File: SecureFiles/test.txt.enc
+2025-01-27 04:23:41 | User: False | Action: Encryption | File: E:/Downloads/pexels-photo-792381.jpeg
+2025-01-27 04:38:57 | User: test003 | Action: Decryption | File: E:/Downloads/pexels-photo-792381.jpeg.enc
+2025-01-27 04:41:06 | User: test003 | Action: Encryption | File: E:/Downloads/pexels-pixabay-326900.jpg
+2025-01-27 04:41:22 | User: test003 | Action: Decryption | File: E:/Downloads/pexels-pixabay-326900.jpg.enc
